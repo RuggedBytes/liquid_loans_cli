@@ -1,0 +1,57 @@
+[
+    {
+        "principal": 10000,
+        "collateral": 100000,
+        "num_periods": 4,
+        "num_skips": 4,
+        "rate_due": 200,
+        "rate_early": 10,
+        "collateral_penalty": 1000,
+        "rates_late": [
+            300,
+            550,
+            800
+        ]
+    },
+    {
+        "principal": 10000,
+        "collateral": 100000,
+        "num_periods": 4,
+        "num_skips": 4,
+        "rate_due": 200,
+        "rate_early": 10,
+        "collateral_penalty": 1000,
+        "rates_late": [
+            300,
+            550,
+            800
+        ]
+    },
+    {
+        "principal": 10000,
+        "collateral": 100000,
+        "num_periods": 4,
+        "num_skips": 3,
+        "rate_due": 250,
+        "rate_early": 50,
+        "collateral_penalty": 2000,
+        "rates_late": [
+            400,
+            900
+        ]
+    },
+    {
+        "principal": 523000,
+        "collateral": 8,
+        "num_periods": 8,
+        "num_skips": 4,
+        "rate_due": 100,
+        "rate_early": 100,
+        "collateral_penalty": 1500,
+        "rates_late": [
+            100,
+            200,
+            300
+        ]
+    }
+]
