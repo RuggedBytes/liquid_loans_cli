@@ -763,7 +763,7 @@ def sign(rpc: ElementsRPCCaller, plan: str, data: str, output: click.Path,
         else:
             raise click.ClickException("change output not found")
 
-    # For checks 6) and 7) we need to generate the contract script
+    # For check 6) we need to generate the contract script
     # and revocation scripts.
 
     blinding_xkey = safe_derive(shared_blinding_xkey, LOCKED_COLLATERAL_PATH)
